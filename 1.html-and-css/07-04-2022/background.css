@@ -1,0 +1,19 @@
+.bg-image{
+    color: white;
+    background-image: url(bg-1.jpg);
+    height: 2000px;
+    width: 2000px;
+    background-repeat: repeat-y;
+}
+table{
+    color: white;
+    background-image: url(bg-2.jpg);
+    height: 1000px;
+    width: 1000px;
+    background-attachment: fixed;
+    background-position: right top;
+}
+body{
+    background: url(bg-3.jpg) no-repeat fixed right top;
+    height: 2000px;
+}

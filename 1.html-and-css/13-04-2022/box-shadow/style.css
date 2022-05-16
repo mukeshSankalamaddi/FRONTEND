@@ -1,0 +1,13 @@
+.example-1{
+    border: 1px solid;
+    margin-bottom: 100px;
+    padding: 10px;
+    box-shadow: 5px 10px 10px 2px red , 5px 10px 10px 2px black;
+}
+
+.example-2{
+    border: 1px solid;
+    margin-bottom: 100px;
+    padding: 10px;
+    box-shadow: 5px 10px 10px 2px red inset, 5px 10px 10px 2px black;
+}

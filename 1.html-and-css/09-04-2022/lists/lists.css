@@ -1,0 +1,17 @@
+ul{
+    list-style-type: circle ;
+    list-style-position: inside;
+    list-style-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHuGlLb-jEFe4AtY9dA659iAuxWdYJfLn7_w&usqp=CAU);
+}
+ol{
+    list-style-type: lower-greek;
+}
+.pointer{
+    cursor: pointer;
+}
+.loading{
+    cursor: progress;
+}
+.crosshair{
+    cursor:crosshair;
+}

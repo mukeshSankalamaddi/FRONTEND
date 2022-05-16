@@ -1,0 +1,33 @@
+.first-div{
+    height: 200px;
+    width: 250px;
+    background-color: greenyellow;
+    position: relative;
+    bottom: -10px;
+}
+
+.second-div{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+    top: -30px;
+}
+
+.third-div{
+    height: 200px;
+    width: 250px;
+    background-color: greenyellow;
+    position: relative;
+    bottom: -10px;
+    opacity: 70%;
+}
+
+.fourth-div{
+    height: 100px;
+    width: 200px;
+    background-color: yellow;
+    position: relative;
+    top: -30px;
+    z-index: -1;
+}

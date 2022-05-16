@@ -1,0 +1,62 @@
+.from-to{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    animation-name: from-to;
+    animation-duration: 4s;
+}
+@keyframes from-to {
+    from{
+        background-color: red;
+        height: 150px;
+    }
+    to{
+        background-color: yellow;
+        height: 200px;
+    }
+}
+
+.percentage{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    animation-name: percentage;
+    animation-duration: 4s;
+    position: relative;
+    animation-delay: 4s;
+    animation-iteration-count: 10;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+@keyframes percentage {
+    0%{
+        background-color: red;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+    }
+    25%{
+        background-color: yellow;
+        height: 125px;
+        left: 1000px;
+        top: 0px;
+    }
+    50%{
+        background-color: blue;
+        height: 150px;
+        left: 1000px;
+        top: 1000px;
+    }
+    75%{
+        height: 125px;
+        background-color: green;
+        left: 0px;
+        top: 1000px;
+    }
+    100%{
+        background-color: red;
+        height: 100px;
+        left: 0px;
+        top: 0px;
+    }
+}

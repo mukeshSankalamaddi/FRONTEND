@@ -1,0 +1,70 @@
+p>img{
+    float: right;
+    height: 200px;
+}
+
+#image+text{
+    padding: 30px;
+    border: 2px solid green;
+}
+
+p::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#div1{
+    background-color: aqua;
+}
+
+#div2{
+    background-color: yellowgreen;
+}
+
+#div3{
+    background-color: bisque;
+}
+
+.div-a{
+    float: right;
+    padding: 10px;
+}
+
+#div4{
+    background-color: aqua;
+}
+
+#div5{
+    background-color: yellowgreen;
+}
+
+#div6{
+    background-color: bisque;
+}
+
+.div-b{
+    float: right;
+    padding: 10px;
+    clear: right;
+}
+
+#myid{
+    background-color: aqua;
+}
+
+.myclass{
+    background-color: yellow;
+}
+
+:root{
+    --greencolor:green;
+    --fontsize:20px;
+}
+
+p{
+    background-color: yellow !important;
+    color:var(--greencolor);
+    font-size: var(--fontsize);
+}
+

@@ -1,0 +1,26 @@
+.diff-color{
+    border-width: 1px;
+    border-style: solid;
+    border-top-color:black ;
+    border-right-color:blue ;
+    border-bottom-color:green ;
+    border-left-color:yellow ;
+}
+
+.same-color{
+    border-bottom: 1px;
+    border-style: dashed;
+    border-top-style: dotted ;
+    border-color: greenyellow;
+}
+
+.all-in-one{
+    border: 1px dotted red ;
+    border-bottom: none;
+}
+
+.border-bottom{
+    border-bottom: 2px;
+    border-bottom-style: dotted;
+    border-bottom-color: blueviolet;
+}

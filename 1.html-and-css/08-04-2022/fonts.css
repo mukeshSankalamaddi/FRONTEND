@@ -1,0 +1,16 @@
+.font-fam{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.font-var{
+    font-variant: small-caps;
+}
+.font-weight{
+    font-weight: bolder;
+}
+.size{
+    font-size: xx-small;
+}
+.combined{
+    font: italic small-caps bold x-large Georgia;
+}

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Forms Practice
+        </title>
+    </head>
+    <body>
+        <h4>Form 1</h4>
+        <form action="www.dsdfskdfjsdfkj.com" method="post">
+            <fieldset>
+                <legend>Person Name</legend>
+                Enter your First and Last Name
+                <br>
+                <label for="First Name">First Name:</label>
+                <input type="text" placeholder="First Name" name="First Name" autocomplete="off" size="50">
+                <br>
+                <label for="Last Name">Last Name:</label>
+                <input type="text" value="Mukesh" name="Last name" autocomplete="off" disabled>
+            </fieldset>
+            <fieldset>
+                <legend>Email Details</legend>
+                <label for="Email">Email:</label>
+                <input type="Email" name="Email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" name="Password" pattern="[A-Za-z]{3}" title="max three characters" required autofocus >
+            </fieldset>
+            <fieldset>
+                <legend>Contact details</legend>
+                <label for="phone">Phone Number:</label>
+                <input type="Number" name="phone Number">
+            </fieldset>
+            <input type="submit" value="Send">
+        </form>
+        <h4>Form 2</h4>
+        <form>
+            Select Languages you Know
+            <br>
+            <input type="radio" id="C" >
+            <label for="C">C</label>
+            <br>
+            <input type="radio" id="C++">
+            <label for="C++">C++</label>
+            <br>
+            <input type="radio" id="Java">
+            <label for="Java">Java</label>
+            <br>
+            <button type="reset">reset</button>
+        </form>
+        <h4>Form 3</h4>
+        <form>
+            Select your Branch in Engineering
+            <br>
+            <input type="radio" id="Civil" name="Branch">
+            <label for="Civil">Civil</label>
+            <br>
+            <input type="radio" id="CSE" name="Branch">
+            <label for="CSE">CSE</label>
+            <br>
+            <input type="radio" id="ME" name="Branch">
+            <label for="ME">ME</label>
+            <br>
+            <input type="radio" id="EEE" name="Branch">
+            <label for="EEE">EEE</label>
+            <br>
+            <input type="radio" id="ECE" name="Branch">
+            <label for="ECE">ECE</label>
+        </form>
+        <h4>Form 4</h4>
+        <form>
+            Choose Your First Fav Language
+            <br>
+            <input type="radio" id="C" name="Language 1">
+            <label for="C">C</label>
+            <br>
+            <input type="radio" id="C++" name="Language 1">
+            <label for="C++">C++</label>
+            <br>
+            <input type="radio" id="Java" name="Language 1">
+            <label for="Java">Java</label>
+            <br>
+            Choose Your Second Fav Language
+            <br>
+            <input type="radio" id="HTML" name="Language 2">
+            <label for="HTML">HTML</label>
+            <br>
+            <input type="radio" id="CSS" name="Language 2">
+            <label for="CSS">CSS</label>
+            <br>
+            <input type="radio" id="JS" name="Language 2">
+            <label for="JS">JS</label>
+        </form>
+        <form>
+            <h4>Form 5</h4>
+            Choose Your Vehicle
+            <br>
+            <input type="checkbox" id="vehicle 1">
+            <label for="vehicle 1">I have a bike</label>
+            <br>
+            <input type="checkbox" id="vehicle 2">
+            <label for="vehicle 2">I have a car</label>
+        </form>
+        <form>
+            <h4>Form 6</h4>
+            <label for="cars">Choose a car</label>
+            <select name="cars" size="1" >
+                <option value="None">None</option>
+                <option value="Audi">Audi Car</option>
+                <option value="BMW">BMW car</option>
+                <option value="Rolls Royce">Rolls Royce car</option>
+                <option value="Bentz">Bentz car</option>
+            </select>
+        </form>
+        <form action="/handle-data">
+            <h4>Form 7</h4>
+            <label for="Essay">Write an essay:</label>
+            <br>
+            <textarea name="Essay text" id="Essay" cols="30" rows="10" placeholder="Type here"></textarea>
+            <br>
+            <button type="reset">reset</button>
+            <input type="submit">
+        </form>
+        <form>
+            <h4>Form 8</h4>
+            Types of inputs
+            <br>
+            <input type="button" value="button">
+            <br>
+            <input type="checkbox">
+            <br>
+            <input type="color">
+            <br>
+            <input type="date">
+            <br>
+            <input type="datetime">
+            <br>
+            <input type="datetime-local">
+            <br>
+            <input type="email">
+            <br>
+            <input type="file">
+            <br>
+            <input type="hidden">
+            <br>
+            <input type="image">
+            <br>
+            <input type="month">
+            <br>
+            <input type="number">
+            <br>
+            <input type="password">
+            <br>
+            <input type="radio">
+            <br>
+            <input type="range" max="500" min="200" value="250">
+            <br>
+            <input type="reset">
+            <br>
+            <input type="search">
+            <br>
+            <input type="submit">
+            <br>
+            <input type="tel">
+            <br>
+            <input type="text">
+            <br>
+            <input type="time">
+            <br>
+            <input type="url">
+            <br>
+            <input type="week">
+        </form>
+        <form >
+            <h4>form 9</h4>
+            <label for="points">points:</label>
+            <input type="number" id="points" name="points" step="4">
+        </form>
+    </body>
+</html>

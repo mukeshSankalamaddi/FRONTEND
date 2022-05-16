@@ -1,0 +1,38 @@
+.non-responsive{
+    width: 900px;
+    background-color: aqua;
+}
+
+@media screen and (max-width:800px){
+    .non-responsive{
+        width: 700px;
+        background-color: blueviolet;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .non-responsive{
+        width: 500px;
+        background-color: chartreuse;
+    }
+}
+
+.topnav{
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:600px){
+    .topnav a{
+        width: 100%;
+    }
+}

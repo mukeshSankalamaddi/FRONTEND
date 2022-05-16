@@ -1,0 +1,55 @@
+body{
+    background-color:thistle;
+}
+
+.main{
+    display: grid;
+    padding: 450px;
+    padding-top: 0%;
+    grid-template-columns: auto auto auto;
+    font-size: larger;
+}
+
+.units{
+    text-align: center;
+    line-height: 0%;
+    margin-top: 10px;
+}
+
+h4{
+    text-align: center;
+    margin-bottom: 10px
+}
+.container{
+    padding: 10px;
+} 
+.img-1{
+    grid-column: 1/4;
+}
+.img-2{
+    margin-left: 10px;
+}
+.img-3{
+    margin-right: 100px;
+    margin-bottom: 0px;
+}
+.img-4{
+    margin-left: 10px;
+    padding-top: 40px;
+}
+.img-5{
+    padding-top: 0px;
+}
+.housePlans{    
+    width: 200px;
+    margin-top: 0px;
+}
+.objective{
+    padding-top: 0%;
+    text-align:center;
+}
+.greenfloor{
+    grid-column: 3/4;
+    width: 200px;
+    margin-top: 0px;
+}

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap practice</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<body>
+       <!-- <img src="/images/pupy.jpeg" alt="" class="img-fluid">
+
+       <img src="/images/RAheader1.gif" alt="" class="rounded float-start" style="width:40%">
+       <img src="/images/RAheader1.gif" alt="" class=" float-end" style="width:40%">
+       <img src="/images/RAheader1.gif" alt="" class="mx-auto d-block">
+
+        <div>
+            <label for="email">Email Address</label>
+            <input type="email" name="email" class="form-control">
+        </div> -->
+        <!-- <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Accordian Item #1
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledly="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="display-5">Accordions</div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Accordion Item #4
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  </div>
+                </div>
+              </div>
+          </div>
+
+
+        <!--  <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="display-5">alerts</div>
+          <div class="alert alert-primary" role="alert">
+            A simple primary alert—check it out!
+          </div>
+          <div class="alert alert-secondary" role="alert">
+            A simple secondary alert—check it out!
+          </div>
+          <div class="alert alert-success" role="alert">
+            A simple success alert—check it out!
+          </div>
+          <div class="alert alert-danger" role="alert">
+            A simple danger alert—check it out!
+          </div>
+          <div class="alert alert-warning" role="alert">
+            A simple warning alert—check it out!
+          </div>
+          <div class="alert alert-info" role="alert">
+            A simple info alert—check it out!
+          </div>
+          <div class="alert alert-light" role="alert">
+            A simple light alert—check it out!
+          </div>
+          <div class="alert alert-dark" role="alert">
+            A simple dark alert—check it out!
+          </div>
+          <div class="alert alert-success alert-dismissible fade show" role="alert">
+              successfully downloaded
+              <button type="button" class="btn-close" data-bs-dismiss="alert" arial-lable="Close"></button>
+          </div>
+
+          <button class="btn btn-warning">
+              warning-1
+          </button>
+          <button class="btn btn-outline-info">
+              Outline Info
+          </button>
+          <button class="btn btn-danger btn-lg">Large Danger</button>
+          <button class="btn btn-secondary btn-sm">Small secondary</button>
+          <div class="d-grid gap-2 mx-auto col-6">
+              <button class="btn btn-primary">button</button>
+              <button class="btn btn-info ">button</button>
+          </div>
+
+
+          <div class="card text-center mt-3">
+            <div class="card-header">
+              Featured
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Special title treatment</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+
+
+          <div class="row mt-3">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card mt-5" style="width: 18rem;">
+            <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://www.rd.com/wp-content/uploads/2021/03/GettyImages-1133605325-scaled-e1617227898456.jpg?resize=696,463" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHrUcvTPMPl8mWOPEdjnX7cn8BIVZDKQzRnA&usqp=CAU" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://i.ytimg.com/vi/Vp7nW2SP6H8/maxresdefault.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            Launch demo modal
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+</body>
+</html>

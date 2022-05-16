@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+body{
+    padding: 1cm;
+    font-family: "Square Peg";
+}
+table{
+    border: 1px solid ;
+    border-color: rgb(221, 221, 221);
+    border-spacing: 0;
+    border-radius: 30px;
+    overflow: hidden;
+}
+td{
+    width: 100px;
+    padding: 1em;
+}
+tr:nth-child(odd){
+    background-color: #ddd;
+
+}
+tr:first-child{
+    text-align: left;
+    background-color:rgb(33,90,142);
+    color: white;
+}

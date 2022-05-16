@@ -1,0 +1,16 @@
+.direction{
+    direction: rtl;
+}
+.shift-text{
+    text-indent: 1in;
+    letter-spacing: 5px;
+    word-spacing: 3px;
+}
+
+.right-align{
+    text-align: right;
+}
+
+.center-align{
+    text-align: center;
+}

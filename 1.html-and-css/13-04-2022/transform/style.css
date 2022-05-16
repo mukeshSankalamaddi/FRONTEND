@@ -1,0 +1,23 @@
+div{
+    width: 150px;
+    height: 80px;
+    background-color:teal ;
+    color: white;
+    padding: 10px;
+}
+
+.a{
+    transform:rotate(20deg);
+}
+
+.b{
+    transform: skewY(20deg);
+}
+
+.c{
+    transform: scale(1.5,1.1) translate(100px,10px);
+}
+
+.a{
+    transform: matrix(0,1,1,1,100,100);
+}

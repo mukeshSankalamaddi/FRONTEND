@@ -1,0 +1,11 @@
+.p1{
+    margin: 20px;
+}
+
+.p2{
+    margin: 10px 10%;
+}
+
+.p3{
+    margin: 10px 2% auto -10px ;
+}

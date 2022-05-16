@@ -1,0 +1,54 @@
+body{
+    background-color: black;
+}
+h1{
+    color: aliceblue;
+}
+p{
+    font-size: xx-large;
+    color:aqua;
+}
+h1.blue{
+    color: blue;
+}
+h1,p{
+    background-color: violet;
+}
+.percentage{
+    font-size: 150%;
+}
+.cm{
+    word-spacing: 2cm;
+}
+.in{
+    word-spacing: 1in;
+}
+.mm{
+    word-spacing: 10mm;
+}
+.em-style{
+    font-size: 1.5cm;
+    letter-spacing: 2em;
+}
+.ex-style{
+    font-size: 1.5cm;
+    letter-spacing: 2ex;
+}
+.first{
+    color: azure;
+}
+.second{
+    color: rgb(50, 50, 10);
+}
+.third{
+    color:rgb(80%, 30%,40%)
+}
+.fourth{
+    color: #f3bda9;
+}
+.fifth{
+    color: #f3b;
+}
+.sixth{
+    color: rgba(0,0,0,0.5);
+}

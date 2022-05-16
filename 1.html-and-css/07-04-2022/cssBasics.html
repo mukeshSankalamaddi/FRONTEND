@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Css Practice</title>
+    <style>
+        /*Comments will be same as java in CSS*/
+        h1{
+            color: burlywood;
+        }
+        #heading3{
+            text-align:center;
+            color: aqua;
+        }
+        .spl{
+            text-align: right;
+            color:blueviolet
+        }
+        div p{
+            background-color:aquamarine;
+        }
+        .childSelector>p{
+            background-color:coral;
+        }
+        .AdjacentSiblingSelector+p{
+            background-color: yellowgreen;
+        }
+        .GeneralSiblingSelector~p{
+            background-color: yellow;
+        }
+        a:link{
+            color: blue
+        }
+        a:visited{
+            color: aqua
+        }
+        a:hover{
+            color: brown
+        }
+        a:active{
+            color:chartreuse
+        }
+        #psudo:hover{
+            color:blue
+        }
+        #newPara::first-line{
+            color: red;
+            font-variant: small-caps;
+        }
+        #newPara::first-letter{
+            color: brown;
+            font-style: italic;
+            font-size: xx-large;
+        }
+        #heading::after{
+            content: url(../images/image.jpg);
+        }
+        #list3::marker{
+            color: gold;
+            font-size: xx-large;
+        }
+        #newPara::selection{
+            color: blueviolet;
+            background-color: black;
+        }
+        a[target]{
+            background-color: black;
+            color: blueviolet;
+        }
+        input[type=text]{
+            width:500px;
+            display: block;
+            margin-bottom: 20px;
+            color: brown;
+            background-color: aqua;
+        }
+        input[type=submit]{
+            width: 100px;
+            margin-left: 50px;
+            background-color: greenyellow;
+        }
+        body{
+            /* background-color: antiquewhite; */
+        }
+        *{
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h4>based on tag----------------------</h4>
+    <h1>heading 1</h1>
+    <h1>heading 2</h1>
+
+    <h4>based on id----------------------------</h4>
+    <h2 id="heading3">heading 3</h2>
+    <h2>heading 4</h2>
+
+    <h4>based on class---------------</h4>
+    <h4 class="spl">heading 5</h4>
+    <h2 class="spl">heading 6</h2>
+    <h3 class="spl">heading 7</h3>
+
+    <h4>based on descent selector----------------------</h4>
+    <div>
+        <p>This is first para</p>
+        <p>This is second para</p>
+    </div>
+    <p>This is third para</p>
+
+    <h4>based on child Selector-----------------------</h4>
+    <div class="childSelector">
+        <p>first child</p>
+        <div>
+            <p>not a child</p>
+        </div>
+        <P>second child</P>
+    </div>
+
+    <h4>based on Adjacent sibling selector----------------------</h4>
+    <P>outside para </P>
+    <div class="AdjacentSiblingSelector">
+        <p>inside para</p>
+    </div>
+    <p>para next to div</p>
+    <P>para next to the para next to div</P>
+
+    <h4>based on General sibling selector ----------------------</h4>
+    <div class="GeneralSiblingSelector">
+        <p>inside para 2</p>
+    </div>
+    <p>para next to div 2 </p>
+    <P>para next to the para next to div 2</P>
+
+    <h4>based on psudo classes-------------------</h4>
+    <a href="https://www.facebook.com" >facebook</a>
+    <h3>opens in a new tab----------------</h3>
+    <a href="https://www.facebook.com" target="_blank">facebook</a>
+
+    <div id="psudo">
+        <p>Test case paragraph</p>
+    </div>
+
+    <h4>based on psudo element-------------</h4>
+    <p id="newPara">Environmental Pollution and Control Technologies: Environmental Pollution: Classification of 
+        pollution, Air Pollution: Primary and secondary pollutants, Automobile and Industrial pollution, Ambient 
+        air quality standards. Water pollution: Sources and types of pollution, drinking water quality standards. 
+        Soil Pollution: Sources and types, Impacts of modern agriculture, degradation of soil. Noise Pollution: 
+        Sources and Health hazards, standards, Solid waste: Municipal Solid Waste management, 
+        composition and characteristics of e-Waste and its management. Pollution control technologies: 
+        Wastewater Treatment methods: Primary, secondary and Tertiary</p>
+
+    <h4>before and after property------------------------</h4>
+    <h1 id="heading">Heading</h1>
+
+    <h4>marker property------------------------</h4>
+    <ul>
+        <li>list 1</li>
+        <li>list 2</li>
+    </ul>
+    <ol type="I">
+        <li id="list3">list 3</li>
+        <li>list 4</li>
+    </ol>
+
+    <h4>attribute selector</h4>
+    <form action="www.dsdfskdfjsdfkj.com" method="post">
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" placeholder="firstName" required>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" placeholder="lastName">
+        <input type="submit" value="Send">
+    </form>
+
+    <h1 style="color: blue;text-align: center;">Inline CSS</h1>
+</body>
+</html>
