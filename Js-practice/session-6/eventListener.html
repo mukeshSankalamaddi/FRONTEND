@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <button id="showDate">Show Date</button>
+    <script>
+        const btn=document.getElementById("showDate")
+        const myCustomFunc=()=>{
+            document.getElementById("demo").innerHTML=`Current Date & time is ${new Date()}` 
+        }
+        btn.addEventListener("click",myCustomFunc)
+    </script>
+
+    <form name="myform">
+        Name:<input type="text" name="fname">
+        <input type="button" value="submit" onclick="validateform()">
+    </form>
+    
+    <script>
+        function validateform(){
+            let form=document.forms["myform"]
+            let fnameInput=form["fname"]
+            let fnameValue=fnameInput.value;
+            if(fnameValue==""){
+                alert("please fill your name")
+            }
+        }
+    </script>
+</body>
+</html>

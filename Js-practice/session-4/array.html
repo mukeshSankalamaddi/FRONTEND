@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const array=[2,4,"rem",91]
+        const odd=[],even=[]
+        array.forEach(function(value,index){
+            if(index%2){
+                odd.push(value)
+            }else{
+                even.push(value)
+            }
+        })
+        console.log(odd,even)
+
+        const numbers=[45,4,9,16,26]
+        let sum= numbers.reduce(myFunction)
+        function myFunction(total,value,index){
+            return total+value;
+        }
+        document.write(sum);
+
+        let areAllover18 =numbers.every(function(value){
+            return value>18
+        })
+        console.log(areAllover18)
+
+        const fruits=["apple","banana","apple","apple","kiwi","orange"]
+        let first =fruits.find(function(value){
+            return value.length>5
+        })
+        console.log(first)
+
+        let lastIndexOfApple =fruits.lastIndexOf("apple")
+        console.log(lastIndexOfApple)
+
+        function getRandomInteger(min,max){
+            return Math.floor(Math.random()*(max-min)+min);
+        }
+        console.log(getRandomInteger(99,101))
+    </script>
+</body>
+</html>

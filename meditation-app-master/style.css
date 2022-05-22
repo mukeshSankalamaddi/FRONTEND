@@ -112,6 +112,14 @@
     top: 30%;
     left: 10%;
   }
+  video {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    z-index: -10;
+    height: 100%;
+  }
 } 
 
 .player-container svg {
@@ -138,5 +146,4 @@ video {
   left: 0%;
   width: 100%;
   z-index: -10;
-  height: 100%;
 }

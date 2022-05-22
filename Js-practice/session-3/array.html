@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array</title>
+</head>
+<body>
+    <p id="show"></p>
+    <script>
+        const cars=[]
+        cars[0]="BMW"
+        cars[1]="Mahindra"
+        cars[2]="Volvo"
+        document.getElementById("show").innerHTML=cars
+
+        let text=""
+        for(let i=0;i<cars.length;i++){
+            text+=cars[i]+"<br>"
+        }
+        document.getElementById("show").innerHTML=text
+
+        const person ={
+            fname:"Mukesh",
+            lname:"reddy",
+            age:22
+        }
+        for(let x in person){
+            console.log(x,person[x])
+        }
+
+        const numbers=[23,231,12,43,54,2];
+        let txt =""
+        numbers.forEach(func)
+        function func(value){
+            txt+=value+","
+        }
+        console.log(txt);
+
+        let table=""
+        for(let i=1;i<=10;i++){
+            table+=19+" X "+1+" = "+i*19+"<br>";
+        }
+        document.getElementById("show").innerHTML=table
+
+        let eg=["banana","kiwi","apple","orange","grapes"]
+        console.log(eg)
+        let newEg=eg.slice(1,4)
+        console.log(eg)
+        console.log(newEg)
+    </script>
+</body>
+</html>
